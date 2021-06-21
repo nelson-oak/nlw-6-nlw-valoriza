@@ -13,7 +13,7 @@ Projeto NLW Valoriza.
 ## Recursos
 
 - Express
-- Typeorm
+- TypeORM
 - SQLite
 
 ## Funcionalidades
