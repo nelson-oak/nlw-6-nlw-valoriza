@@ -7,6 +7,9 @@ Projeto NLW Valoriza.
 
 | Entidades | Atributos |
 | - | - |
+| user | id, name, email, password, admin, created_at, updated_at |
+| tag | id, name, created_at, updated_at |
+| compliments | id, user_sender, user receiver, tag_id, message, created_at |
 
 ## Funcionalidades
 
