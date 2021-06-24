@@ -10,9 +10,7 @@ export class CreateTagService {
     }
 
     const tagAlreadyExists = await tagsRepository.findOne({
-      where: {
-        name
-      }
+      name
     })
 
     if (tagAlreadyExists) {
