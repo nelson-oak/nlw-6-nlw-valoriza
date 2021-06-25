@@ -40,9 +40,10 @@ Projeto NLW Valoriza.
 
 Após clonar o projeto, é necessário atualizar as dependências.
 
-### Comandos para baixar dependências e iniciar a aplicação
+### Comandos para baixar dependências, executar migrations e iniciar a aplicação
 
 ```bash
 yarn
+yarn typeorm migration:run
 yarn dev
 ```
